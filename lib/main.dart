@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latstateful/dash.dart';
 import 'package:latstateful/latcheckbox.dart';
 import 'package:latstateful/latdropdownbutton.dart';
 import 'package:latstateful/latfloatingactionbutton.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Lattextfield(),
+      home: const Dash(),
     );
   }
 }
